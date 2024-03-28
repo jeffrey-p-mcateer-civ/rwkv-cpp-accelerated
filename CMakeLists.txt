@@ -28,3 +28,4 @@ add_library(
 
 # link cuda lcudart_static
 target_link_libraries(rwkv_cuda PRIVATE CUDA::cudart_static)
+
